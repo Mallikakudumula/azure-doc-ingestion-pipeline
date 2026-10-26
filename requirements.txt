@@ -1,0 +1,18 @@
+# Core (needed for local mode)
+python-dotenv>=1.0
+pypdf>=4.0
+python-docx>=1.1
+openpyxl>=3.1
+requests>=2.31
+
+# Azure mode (optional - install when you connect real Azure services)
+azure-ai-documentintelligence>=1.0.0
+azure-identity>=1.17
+azure-storage-blob>=12.20
+azure-servicebus>=7.12
+msal>=1.28
+azure-monitor-opentelemetry>=1.6
+
+# Dev
+pytest>=8.0
+reportlab>=4.0   # only to generate sample PDFs

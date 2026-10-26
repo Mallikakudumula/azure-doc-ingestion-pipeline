@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/landing/
+data/output/
+data/dead_letter/
+data/*.db
+data/inbox/*/
+.pytest_cache/
